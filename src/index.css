@@ -1,0 +1,100 @@
+body {
+  background-image: url("https://fsa.zobj.net/crop.php?r=o1X8Xu7MjeMg9ftIX6HDmorXzZlj4IDHVqP4xLd8h2xQVfrcRi3u5ho0knQCAx8W0cGDN73f4cE89YWjVbia4jvizedCAMyHiY5mcTa2GC8t0s1TJM3kITcn6v69A1f3yC281lNHr9KO4WBd");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: luminosity;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.newTask input{
+  border: 5px solid orangered;
+
+  color: green;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+  width: 50%;
+  transition-duration: 0.3s;
+justify-content: center;
+border-radius: 50px;
+
+}
+.newTask input:hover{
+width:96%;
+}
+
+.task{
+  width: 80%;
+  font-size: 9px;
+border-radius: 50px;
+    margin-bottom: 9px;
+  display: flex;
+  justify-content :space-between;
+  transition-duration: 0.3s;
+}
+.task:hover{
+  width: 100%;
+
+}
+
+.deleteButton{
+  
+transition-duration: 0.3s;
+margin: 0;
+font-size: 20px;  
+width:50px ;
+height: 50px;
+border-radius: 50%;
+  color: black;
+}
+.deleteButton:hover{
+  background: red;
+  color: black;
+}
+.taskLabel{
+  margin-left: 1%;
+}
+
+.header{
+  height: 100px;
+  text-align: center;
+  padding : 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color :black;
+  background:whitesmoke;
+  
+}
+.counter{
+font-size: 15px;
+}
+.banner{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  margin-left: 10px;
+}
+
+.author{
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 1px;
+
+}
+
+
+@media screen and (max-width : 500px){
+  body{
+    width: 100%;
+  }
+  .task{
+    border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+  }
+.newTask input{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+}
