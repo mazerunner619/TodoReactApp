@@ -78,10 +78,11 @@ font-size: 15px;
 
 .author{
   font-family: Brush Script MT;
-  font-size: 10px;
+  font-size: 14px;
   position: absolute;
   bottom: 0;
   right: 1px;
+  color:rgb(157, 255, 0);
 
 }
 

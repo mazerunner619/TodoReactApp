@@ -1,6 +1,7 @@
 import React from 'react'
 import Task from "./tasks.js";
 import Header from './header.js'
+import Footer from './footer.js'
 
 class App extends React.Component {
 
@@ -86,6 +87,7 @@ class App extends React.Component {
       
           <br/><br/>
           {taskArray}
+          <Footer/>
         </div>
     </div>
   )
