@@ -1,3 +1,5 @@
+#the app was created using class based components ( not by react hooks )
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
