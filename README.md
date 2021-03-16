@@ -1,4 +1,4 @@
-#the app was created using class based components ( not by react hooks )
+# the app was created using class based components ( not functional components )
 
 # Getting Started with Create React App
 
